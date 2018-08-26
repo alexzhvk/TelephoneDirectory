@@ -55,7 +55,7 @@
             this.propTextBox3.Name = "propTextBox3";
             this.propTextBox3.Size = new System.Drawing.Size(229, 30);
             this.propTextBox3.TabIndex = 29;
-            this.propTextBox3.TextChanged += new System.EventHandler(this.propTextBox3_TextChanged);
+            
             // 
             // propTextBox2
             // 
@@ -66,7 +66,7 @@
             this.propTextBox2.Name = "propTextBox2";
             this.propTextBox2.Size = new System.Drawing.Size(229, 30);
             this.propTextBox2.TabIndex = 28;
-            this.propTextBox2.TextChanged += new System.EventHandler(this.propTextBox2_TextChanged);
+            
             // 
             // propTextBox1
             // 
@@ -77,7 +77,7 @@
             this.propTextBox1.Name = "propTextBox1";
             this.propTextBox1.Size = new System.Drawing.Size(229, 30);
             this.propTextBox1.TabIndex = 27;
-            this.propTextBox1.TextChanged += new System.EventHandler(this.propTextBox1_TextChanged);
+            
             // 
             // propertyLabel3
             // 
@@ -88,7 +88,7 @@
             this.propertyLabel3.Size = new System.Drawing.Size(55, 29);
             this.propertyLabel3.TabIndex = 25;
             this.propertyLabel3.Text = "prop3:";
-            this.propertyLabel3.Click += new System.EventHandler(this.propertyLabel3_Click);
+            
             // 
             // propertyLabel2
             // 
@@ -99,7 +99,7 @@
             this.propertyLabel2.Size = new System.Drawing.Size(55, 29);
             this.propertyLabel2.TabIndex = 24;
             this.propertyLabel2.Text = "prop2:";
-            this.propertyLabel2.Click += new System.EventHandler(this.propertyLabel2_Click);
+            
             // 
             // propertyLabel1
             // 
@@ -110,7 +110,7 @@
             this.propertyLabel1.Size = new System.Drawing.Size(51, 29);
             this.propertyLabel1.TabIndex = 23;
             this.propertyLabel1.Text = "prop1:";
-            this.propertyLabel1.Click += new System.EventHandler(this.propertyLabel1_Click);
+            
             // 
             // propTextBox4
             // 
@@ -122,7 +122,7 @@
             this.propTextBox4.Size = new System.Drawing.Size(229, 30);
             this.propTextBox4.TabIndex = 31;
             this.toolTip1.SetToolTip(this.propTextBox4, "Format: dd.MM.yyyy hh:mm:ss");
-            this.propTextBox4.TextChanged += new System.EventHandler(this.propTextBox4_TextChanged);
+            
             // 
             // propertyLabel4
             // 
@@ -133,7 +133,7 @@
             this.propertyLabel4.Size = new System.Drawing.Size(54, 29);
             this.propertyLabel4.TabIndex = 30;
             this.propertyLabel4.Text = "prop4:";
-            this.propertyLabel4.Click += new System.EventHandler(this.propertyLabel4_Click);
+            
             // 
             // propertyLabel6
             // 
@@ -144,7 +144,7 @@
             this.propertyLabel6.Size = new System.Drawing.Size(55, 29);
             this.propertyLabel6.TabIndex = 33;
             this.propertyLabel6.Text = "prop6:";
-            this.propertyLabel6.Click += new System.EventHandler(this.propertyLabel6_Click);
+            
             // 
             // propertyLabel5
             // 
@@ -155,7 +155,7 @@
             this.propertyLabel5.Size = new System.Drawing.Size(55, 29);
             this.propertyLabel5.TabIndex = 32;
             this.propertyLabel5.Text = "prop5:";
-            this.propertyLabel5.Click += new System.EventHandler(this.propertyLabel5_Click);
+            
             // 
             // addBtn
             // 
@@ -177,7 +177,7 @@
             this.propComboBox5.Name = "propComboBox5";
             this.propComboBox5.Size = new System.Drawing.Size(229, 34);
             this.propComboBox5.TabIndex = 37;
-            this.propComboBox5.SelectedIndexChanged += new System.EventHandler(this.propComboBox5_SelectedIndexChanged);
+            
             // 
             // propComboBox6
             // 
@@ -187,11 +187,8 @@
             this.propComboBox6.Name = "propComboBox6";
             this.propComboBox6.Size = new System.Drawing.Size(229, 34);
             this.propComboBox6.TabIndex = 38;
-            this.propComboBox6.SelectedIndexChanged += new System.EventHandler(this.propComboBox6_SelectedIndexChanged);
-            // 
-            // toolTip1
-            // 
-            this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
+            
+           
             // 
             // addForm
             // 
