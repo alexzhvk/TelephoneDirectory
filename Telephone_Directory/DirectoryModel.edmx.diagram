@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e9e163aa274046e8b48d0a1baec0570f" Name="Diagram1" >
+        <EntityTypeShape EntityType="DirectoryModel.SubscribersInfo" Width="1.875" PointX="1.25" PointY="1.25" />
+        <EntityTypeShape EntityType="DirectoryModel.ConnectionsInfo" Width="2" PointX="5.875" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DirectoryModel.OperatorsInfo" Width="1.5" PointX="9.75" PointY="1.25" />
+        <AssociationConnector Association="DirectoryModel.SubscribersInfoConnectionsInfo" />
+        <AssociationConnector Association="DirectoryModel.OperatorsInfoConnectionsInfo" />
+        <EntityTypeShape EntityType="DirectoryModel.UsersInfo" Width="1.5" PointX="6.125" PointY="4" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

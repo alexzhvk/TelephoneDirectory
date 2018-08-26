@@ -1,0 +1,2 @@
+GoldenTelekom	039	12506
+Intertelekom	094	36300
